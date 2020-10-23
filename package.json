@@ -1,0 +1,24 @@
+{
+  "name": "projettristan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser.scrapping": "node main.js",
+    "twitter.scrapping": "node twitter-scrap.js",
+    "parseDB": "node patch.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cli-progress": "^3.8.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.6.0",
+    "node-html-parser": "^1.2.20",
+    "puppeteer": "^5.2.1",
+    "twitter": "^1.7.1"
+  }
+}
